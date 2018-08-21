@@ -1,0 +1,24 @@
+---
+  - name: Create a trusted storage pool
+    gluster_peer:
+       state: present
+       nodes: "{{peer_1}}"
+       nodes: "{{peer_2}}"
+
+
+  - name: Creating volume
+    gluster_volume:
+      state: present
+      name: "{{gluster_volume_1}}"
+      bricks: /{{ mount_point_1 }}/{{ sub_dir_1 }}
+      replicas: 3
+      cluster:
+        - "{{self_ip}}"
+        - "{{peer_1}}"
+        - "{{peer_2}}"
+    run_once: true
+
+  - name: start gluster volume
+    gluster_volume:
+      state: started
+      name: "{{gluster_volume_1}}"
