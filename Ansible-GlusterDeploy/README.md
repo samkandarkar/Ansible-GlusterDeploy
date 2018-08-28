@@ -1,38 +1,61 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+Ansible-GlusterDeploy is an Ansible Galaxy to configure a 3 node gluster storage cluster . 
 
 Requirements
 ------------
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+This is a project which helps you to configure a 3 node cluster of gluster storage. 
+Prerequisits :
+Gluster should be installed in each node of same version.
+Systems should be in the same netwrok.
 
 Role Variables
 --------------
+In the vars file in /vars/main.yml there are some variables whcih users can change or define according to their use case :
+Example: 
+# Enter the disk name you have in your nodes (ex. /dev/sdb)
+    disk_name: /dev/sdb
+    
+# Name the volume group you want to create under the physical volume
+    volume_group: vg1
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+# Create a thinpool under the volume group
+    pool: pool1
 
-Dependencies
-------------
+# Mention the size of the thinpool with respect to the size of VolumeGroup
+    pool_size: 6g
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+# Create a logical volume under the thinpool
+    logical_volume: lv
 
-Example Playbook
-----------------
+# Mention the size of logical volume
+    lv_size: 200m
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+# Name of the brick where the logical volume will be mounted ( This directory will be created on "/" folder. If you want create it on anouther folder then just don't mention "/" .  )
+    mount_point_1: brick1
 
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
+# IP address of the master 
+    master: 192.168.122.60
+
+# IP of the node1 
+    node1: 192.168.122.70
+
+# IP of the node2
+    node2: 192.168.122.80
+
+# Name of the gluster volume
+    volume: arbi
+
+# name of the sub directory for the brick (It will create a folder under the mount point)
+    sub_dir: subdir
 
 License
 -------
-
-BSD
+GNU General Public License
 
 Author Information
 ------------------
-
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+Shriya Mulay ( mulayshriya@gmail.com )
+Sameer Kandarkar ( samkandarkar@gmail.com )
