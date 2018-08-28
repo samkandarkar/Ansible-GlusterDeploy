@@ -10,7 +10,7 @@ http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 
 # 
 # Clone this repo to your master node.
- git clone <repo>
+ git clone repo
 
 # Edit the inventory file
  [nodes] <br>
