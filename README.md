@@ -14,7 +14,7 @@ http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 
 # Edit the inventory file
  [nodes]
- < IP1 > can be master
+ IP1
  < IP2 >
  < IP3 >
  
