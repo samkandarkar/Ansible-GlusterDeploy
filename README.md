@@ -7,7 +7,7 @@ Gluster should be Installed on each node in your environment. You can refer foll
  
  For centos : <br>
  
-http://download.gluster.org/pub/gluster/glusterfs/LATEST/CentOS/glusterfs-epel.repo
+http://download.gluster.org/pub/gluster/glusterfs/LATEST/CentOS/glusterfs-epel.repo <br>
  For Fedora : <br>
  
 http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
