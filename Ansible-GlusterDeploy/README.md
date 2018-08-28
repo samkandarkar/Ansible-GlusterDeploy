@@ -6,8 +6,8 @@ Ansible-GlusterDeploy is an Ansible Galaxy to configure a 3 node gluster storage
 Requirements
 ------------
 
-This is a project which helps you to configure a 3 node cluster of gluster storage. 
-Prerequisits :
+This is a project which helps you to configure a 3 node cluster of gluster storage. <br>
+Prerequisits :<br>
 Gluster should be installed in each node of same version.
 Systems should be in the same netwrok.
 
