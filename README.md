@@ -15,8 +15,9 @@ http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 
  
 # Clone this repo to your master node.
+```
  git clone https://github.com/samkandarkar/Ansible-GlusterDeploy.git
-
+```
 # Edit the inventory file
  [nodes] <br>
  IP1 (Can be master's IP) <br>
