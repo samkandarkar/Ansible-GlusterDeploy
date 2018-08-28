@@ -57,5 +57,5 @@ GNU General Public License
 
 Author Information
 ------------------
-Shriya Mulay ( mulayshriya@gmail.com )
+Shriya Mulay ( mulayshriya@gmail.com ) <br>
 Sameer Kandarkar ( samkandarkar@gmail.com )
