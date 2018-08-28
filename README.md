@@ -2,7 +2,7 @@
 Using this repo you can configure a three node cluster of Gluster storage in your environment using Ansible automation tool.
 
 <b> Prerequisits : </b> <br>
-For Ansible Deployment all nodes must conatin a passwordless ssh connection from Ansible server 
+For Ansible Deployment all nodes must conatin a passwordless ssh connection from Ansible server and 
 Gluster should be Installed on each node in your environment. You can refer following repository
  
  For centos : <br>
