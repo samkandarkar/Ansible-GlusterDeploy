@@ -4,12 +4,12 @@ Using this repo you can configure a three node cluster of Gluster storage in you
  Prerequisits :
 For Ansible Deployment all nodes must conatin a passwordless ssh connection from Ansible server 
 Gluster should be Installed on each node in your environment. You can refer following repository
- For centos :
+ For centos : <br>
 http://download.gluster.org/pub/gluster/glusterfs/LATEST/CentOS/glusterfs-epel.repo
- For Fedora
+ For Fedora : <br>
 http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 
-# 
+ 
 # Clone this repo to your master node.
  git clone https://github.com/samkandarkar/Ansible-GlusterDeploy.git
 
