@@ -27,7 +27,7 @@ http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
  [master] <br>
  Master_IP
  
- # HOW TO PLAY 
+ # How to play 
  
  To Configure the environment for gluster storage cluster you have to play the file "run.yml" which will invoke Ansible galaxy roles in "Ansible-GlusterDeploy" folder.
  Before running the playbook , users must change the values in the file "Ansible-GlusterDeploy/vars/main.yml". There is example available for configuration of vars file in "Ansible-GlusterDeploy/README.md".
