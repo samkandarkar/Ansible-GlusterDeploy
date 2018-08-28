@@ -14,10 +14,10 @@ http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 
 # Edit the inventory file
  [nodes] <br>
- IP1
- < IP2 >
- < IP3 >
+ IP1 (Can be master's IP) <br>
+ IP2 <br>
+ IP3
  
- [master]
- < Master_IP >
+ [master] <br>
+ Master_IP
 
