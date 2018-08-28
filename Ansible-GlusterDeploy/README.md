@@ -46,7 +46,7 @@ Example:
     node2: 192.168.122.80
 
  # Name of the gluster volume
-    volume: arbi
+    volume: vol_name
 
  # name of the sub directory for the brick (It will create a folder under the mount point)
     sub_dir: subdir
