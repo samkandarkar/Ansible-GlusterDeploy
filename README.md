@@ -32,5 +32,6 @@ http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
  Before running the playbook , users must change the values in the file "Ansible-GlusterDeploy/vars/main.yml". There is example available for configuration of vars file in "Ansible-GlusterDeploy/README.md".
  
  After doing all configurations releted to your requirement run the followingcommand
- 
- # ansible-playbook run.yml
+ ```
+  ansible-playbook run.yml
+```
