@@ -13,7 +13,7 @@ http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
  git clone <repo>
 
 # Edit the inventory file
- [nodes]
+ [nodes] <br>
  IP1
  < IP2 >
  < IP3 >
