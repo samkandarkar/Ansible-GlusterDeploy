@@ -1,9 +1,0 @@
----
-- hosts: dev
-  tasks:
-  - ping:
-    register: noone
-  - name:
-  - debug:
-     var: noonie
-
