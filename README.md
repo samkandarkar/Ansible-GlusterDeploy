@@ -33,4 +33,4 @@ http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
  
  After doing all configurations releted to your requirement run the followingcommand
  
- $ ansible-playbook run.yml
+ # ansible-playbook run.yml
