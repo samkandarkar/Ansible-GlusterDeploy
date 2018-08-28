@@ -15,40 +15,40 @@ Role Variables
 --------------
 In the vars file in /vars/main.yml there are some variables whcih users can change or define according to their use case :
 Example: 
-# Enter the disk name you have in your nodes (ex. /dev/sdb)
+ Enter the disk name you have in your nodes (ex. /dev/sdb)
     disk_name: /dev/sdb
     
-# Name the volume group you want to create under the physical volume
+ Name the volume group you want to create under the physical volume
     volume_group: vg1
 
-# Create a thinpool under the volume group
+ Create a thinpool under the volume group
     pool: pool1
 
-# Mention the size of the thinpool with respect to the size of VolumeGroup
+ Mention the size of the thinpool with respect to the size of VolumeGroup
     pool_size: 6g
 
-# Create a logical volume under the thinpool
+ Create a logical volume under the thinpool
     logical_volume: lv
 
-# Mention the size of logical volume
+ Mention the size of logical volume
     lv_size: 200m
 
-# Name of the brick where the logical volume will be mounted ( This directory will be created on "/" folder. If you want create it on anouther folder then just don't mention "/" .  )
+ Name of the brick where the logical volume will be mounted ( This directory will be created on "/" folder. If you want create it on anouther folder then just don't mention "/" .  )
     mount_point_1: brick1
 
-# IP address of the master 
+ IP address of the master 
     master: 192.168.122.60
 
-# IP of the node1 
+ IP of the node1 
     node1: 192.168.122.70
 
-# IP of the node2
+ IP of the node2
     node2: 192.168.122.80
 
-# Name of the gluster volume
+ Name of the gluster volume
     volume: arbi
 
-# name of the sub directory for the brick (It will create a folder under the mount point)
+ name of the sub directory for the brick (It will create a folder under the mount point)
     sub_dir: subdir
 
 License
