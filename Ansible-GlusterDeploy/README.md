@@ -58,4 +58,4 @@ GNU General Public License
 Author Information
 ------------------
 Shriya Mulay ( mulayshriya@gmail.com ) <br>
-Sameer Kandarkar ( samkandarkar@gmail.com )
+Sameer Kandarkar ( sam.kandarkar@gmail.com )
